@@ -3,10 +3,20 @@
 * [New sized and/or unsigned variants of `readInt` and `readInteger`](https://github.com/haskell/bytestring/pull/438)
 * [`readInt` returns `Nothing`, if the sequence of digits cannot be represented by an `Int`, instead of overflowing silently](https://github.com/haskell/bytestring/pull/309)
 * [Remove `zipWith` rewrite rule](https://github.com/haskell/bytestring/pull/387)
+
+[0.12.0.0]: https://github.com/haskell/bytestring/compare/0.11.4.0...0.12.0.0
+
+[0.11.4.0] — July 2022
+
 * [Export `unsafeIndex` for ShortByteString which had been accidentally removed in v0.11.3.0](https://github.com/haskell/bytestring/pull/532)
+* [Simplify `useAsCString`](https://github.com/haskell/bytestring/pull/516)
+* [Remove redundant comparisons in `Data.ByteString.Short.splitAt`](528)
+* [Speed up non-host endianness writes](https://github.com/haskell/bytestring/pull/531)
+* [Document possible interleaving of `hPutStrLn` and friends](https://github.com/haskell/bytestring/pull/518)
+* [Documentation tweaks](https://github.com/haskell/bytestring/pull/523)
+* [Add lower bound for `tasty-quickcheck`](https://github.com/haskell/bytestring/pull/520)
 
-
-[0.12.0.0]: https://github.com/haskell/bytestring/compare/0.11.3.0...0.12.0.0
+[0.11.4.0]: https://github.com/haskell/bytestring/compare/0.11.3.1...0.11.4.0
 
 [0.11.3.1] — May 2022
 
